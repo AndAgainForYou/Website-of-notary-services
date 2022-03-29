@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0;
+    margin-right: -35px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 1px solid #B3B2B2;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+    width: 1218px;
+    height: 80px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.container a img{
+    width: 80px;
+    height: 78px;
+    margin-right: 15px;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar-nav li {
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 132px;
+    padding: 10px;
+    transform: skew(-20deg, 0);
+    border-left: 1px solid #B3B2B2;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    font-family: Forum;
+    display: flex;
+    height: 80px;
+    color: black;
+    align-items: center;
+    z-index: 10;
+}
+.navbar-nav li:nth-child(2){
+    width: 100px;
+    height: 60px;
+}
+.navbar-nav li:nth-child(4){
+    border-right: 1px solid #B3B2B2;
+}
+.navbar-nav li:nth-child(5){
+    width: 62px;
+    border-left: 1px solid #B3B2B2;
+    border-right: 1px solid #B3B2B2;
+}
+.navbar-nav li:hover{
+    background: #162758;
+    color: white;
+    transition: all 0.2s;
+}
+.navbar-nav li a:hover {
+    background: #162758;
+    color: white;
+    transition: all 0.6s;
+}
+.navbar-nav li a div{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    
+    transform: skewX(20deg);
+    font-size: 11px;
+}
+.container div .toggle{
+    display: none;
+}
+@media screen and (max-width: 920px) {
+    nav .navbar-nav li{
+        display: none;
+    }
+    .container div .toggle{
+        display: flex;
+        font-size: 35px;
+        text-decoration: none;
+        margin-right: 43px;
+        color: black;
+    }
+    .navbar-nav .responcive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    nav .navbar-nav .responcive{
+        height: 340px;
+    }
+    nav .responcive a.toggle{
+        position: absolute;
+        top: -50px;
+        left: -200px;
+    }
+    nav .navbar-header .responcive a{
+        float: none;
+        display: block;
+        text-align: le;
+    }
+}
+
+
+
+
+
+.navbar-languages{
+    display: flex;
+    list-style-type: none;
+    margin-left: -39px;
+}
+.navbar-languages li{
+    padding-left: 7px;
+    /* height: 30px; */
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 10px; */
+    transform: skew(-20deg, 0);
+    border-right: 1px solid #B3B2B2;
+}
+.navbar-languages li:hover{
+    border-right: 1px solid black;
+    color: black;
+}
+.navbar-languages li a:hover{   
+    color: black;
+}
+.navbar-languages li:nth-child(2){
+    border-right: none;
+}
+.navbar-languages li:nth-child(2):hover{
+    border-right: none;
+}
+
+
+.navbar-languages li a{
+    text-decoration: none;
+    color: gray;
+    transform: skew(20deg, 0);
+    padding-right: 7px;
+    font-size: 13px;
+}
+.phone-number{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: right;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'cpsp' on;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-page2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.container-page2 .container2{
+    margin-right: 890px;
+}
+.container-page2 .container2 a{
+    text-decoration: none;
+    color: black;
+    font-family: Forum;
+    padding-right: 5px;
+}
+
+
+
+
+
+.container-one2{
+    display: flex;
+    margin-left: 60px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-one2 .container2{
+    display: flex;
+    width: 1218px;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.container-one2 .container2 .main-text2{
+    width: 702px;
+    display: flex;
+    height: 1199px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0;
+    padding-bottom: 120px;
+    
+    
+}
+.container-one2 .container2 .main-text2 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-transform: lowercase;
+    line-height: 150%;
+    margin-left: 19px;
+    width: 861px;
+    display: list-item;
+    list-style-type: '/   '
+}
+.container-one2 .main-text2 .main-text-header2{
+    font-size: 28px;
+    line-height: 31px;
+    font-family: Forum;
+    padding-bottom: 13px;
+    padding-top: 34px;
+}
+.container-one2 .main-text2 .sub-header2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Montserrat;
+    color: #222222;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.container-one2 .main-text2 .sub-header2:nth-child(1){
+    padding-top: 0;
+}
+
+
+
+
+.container-one2 .container2 .main-text2 p::marker{
+    color: black;
+    font-weight: bold;
+}
+.main-image2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 440px;
+    height: 928px;
+    align-items: flex-start;
+    padding-right: 60px;
+}
+.main-image2 p{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: Montserrat;
+}
+.main-image2 .header2{
+    border-bottom: 1px solid;
+    width: 440px;
+}
+.main-image2 .header2 h1{
+    font-size: 42px;
+    line-height: 46px;
+    font-family: Forum;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.main-image2 .text2{
+    padding-top: 20px;
+}
+.main-image2 .text2 .text-header2{
+    line-height: 31px;
+    font-size: 28px;
+    font-family: Forum;
+}
+
+
+@media screen and (max-width: 420px) {
+    .container-one2 .container2 .main-text2 p{
+        font-size: 25px;
+    }
+    .container-one2 .container2 .main-text2 h2{
+        font-size: 40px;
+    }
+    .main-image2 .text2{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1135px){
+    .container-one2{
+        margin-left: 0;
+    }
+    .container-one2 .container2{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .container-one2 .container2 .main-text2{
+        margin-left: 10px;
+        text-align: center;
+        margin-right: 10px;
+        display: flex;
+        width: -webkit-fill-available;
+        padding-top: auto;
+        /* padding-bottom: 340px; */
+        align-items: center;
+    }
+    .container-one2 .containe2 .main-text2 p{
+        height: 70px;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        text-transform: lowercase;
+        line-height: 120%;
+        width: -webkit-fill-available;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .container-one2 .container2 .main-text2 .one2{
+        margin-left: inherit;
+    }
+    .container-one2 .container2 .main-text2 .two2{
+        margin-left: inherit;
+    }
+    .container-one2 .container2 .main-image2{
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    .container-one2 .container2 .main-image2 h1{
+        text-align: center;
+    }
+    .container-page2 .container2{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 920px){
+    .container-one2{
+        margin-left: 0;
+    }
+    .container-one2 .container2{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .container-one2 .container2 .main-text2{
+        margin-left: 10px;
+        text-align: center;
+        margin-right: 10px;
+        display: flex;
+        width: -webkit-fill-available;
+        padding-top: auto;
+        padding-bottom: 340px;
+        align-items: center;
+    }
+    .container-one2 .container2 .main-text2 p{
+        height: 70px;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        text-transform: lowercase;
+        justify-content: center;
+        line-height: 120%;
+        width: -webkit-fill-available;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .container-one2 .container2 .main-image2{
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    .container-one2 .container2 .main-image2 h1{
+        text-align: center;
+    }
+    .container-page2 .container2{
+        margin-right: 0;
+    }
+    nav .container2 .navbar-languages2{
+        display: none;
+    }
+    nav .container2 .phone-number2{
+        display: none;
+    }
+    nav .container2{
+        justify-content: none;
+    }
+}
+@media screen and (max-width: 1210px){
+    .container-one2 .container2 .main-text2 p{
+        height: 70px;
+    }
+    .navbar-nav2 li:nth-child(5){
+        border-left: 1px solid #B3B2B2;
+    }
+}
+.container-one2 .container2 .main-text2 li{
+    list-style-type: none;
+}
+.container-one2 .container2 .main-text2 li a{
+    text-decoration: none;
+    background: #162758;
+    color: white;
+    padding: 25px 30px;
+}
+.container-one2 .container2 .main-image2 img{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #162758;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer .container .navbar-nav li{
+    color: white;
+    background-color: #162758;
+    border: none;
+    width: 139px;
+    height: 0px;
+    margin: 1px;
+    border-right: 1px solid white;
+}
+.footer .container .navbar-nav li:nth-child(1){
+    width: 102px;
+}
+.footer .container .navbar-nav li:nth-child(3){
+    border: none;
+    border-right: 1px solid white;
+}
+.footer .container .navbar-nav li:nth-child(4){
+    border: none;
+    width: 80px;
+}
+.footer .container .footer-menu{
+    display: flex;
+    flex-direction: row;
+    width: 1218px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid white;
+}
+.footer .container .footer-menu li a{
+    color: white;
+}
+@media screen and (max-width: 920px){
+    .footer .container .navbar-nav li:nth-child(3){
+        border: none;
+    }
+    .footer .container .footer-menu{
+        display: flex;
+        flex-direction: column;
+        /* width: 1218px; */
+        flex-wrap: nowrap;
+        align-items: center;
+        border-bottom: 1px solid white;
+    } 
+    .footer .container .footer-menu .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    .footer .container .navbar-nav li{
+        border: none;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .footer .container .phone-number{
+        padding-bottom: 30px;
+    }
+    .footer .container .footer-text{
+        margin-bottom: 20px;
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+.footer .container .footer-menu .phone-number{
+    color: white;
+}
+.footer .container .footer-menu a img{
+    padding-top: 40px;
+    width: 134px;
+    height: 112px;
+}
+.footer .container .footer-text{
+    color: #B3B2B2;
+    display: flex;
+    width: 1218px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.footer .container .footer-text p:nth-child(2){
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+}
+.footer .container .footer-text p:nth-child(1){
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+}

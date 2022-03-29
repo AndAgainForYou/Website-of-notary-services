@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="navbar-header">
+                <ul class="navbar-nav">
+                    <a href="#"><img src="../images/logo.png"></a>
+                    <li><a href="#"><div>НОТАРІАЛЬНІ ДІЇ</div></a></li>
+                    <li><a href="#"><div>ДЕРЖАВНА РЕЄСТРАЦІЯ</div></a></li>
+                    <li><a href="#"><div>ІНШІ ПОВНОВАЖЕННЯ</div></a></li>
+                    <li><a href="#"><div>КОНТАКТИ</div></a></li>
+                </ul>
+            </div>
+            <div>
+                <a class="toggle" id="menu" href="#">&#9776;</a>
+            </div>
+            <div class="navbar-languages">
+                    <li><a href="#">УКР</a></li>
+                    <li><a href="#">ENG</a></li>
+            </div>
+            <a class="phone-number" href="#">+38 (050) 979 22 41</a>
+        </div>
+    </nav>
+    <div class="ul display-none" id="nava">
+        <ul class="li">
+            <a href="#">НОТАРІАЛЬНІ ДІЇ</a>
+            <a href="#">ДЕРЖАВНА РЕЄСТРАЦІЯ</a>
+            <a href="#">ІНШІ ПОВНОВАЖЕННЯ</a>
+            <a href="#">КОНТАКТИ</a>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-page4">
+        <div class="container4">
+            <a href="#">ГОЛОВНА</a>
+            <a href="#"> / </a>
+            <a href="#">КОНТАКТИ</a>
+        </div>
+    </div>
+    <div class="container-one4">
+        <div class="container4">
+            <div class="main-text4">
+                <div class="left4 first4"><a href="#">+380509792241</a></div>
+                <div class="left4"><a href="#">avlasovich@ukr.net</a></div>
+                <div class="left4"><a href="#">Україна, 01024, м. Київ, <br>вул. Антоновича, буд. 3А, кв. 19</a></div>
+
+                <div class="bot4"><span>Пн-Пт: 09.00-21.00</span><br>
+                    <span>Сб: вихідний</span><br>
+                    <span>Нд: за домовленістю</span></div>
+            </div>
+            <div class="main-image4">
+              <img src="../images/map2.png">
+            </div>
+        </div>        
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-menu">
+                <a href="#"><img src="../images/logo.png"></a>
+                <ul class="navbar-nav">
+                    <li><a><div>НОТАРІАЛЬНІ ДІЇ</div></a></li>
+                    <li><a><div>ДЕРЖАВНА РЕЄСТРАЦІЯ</div></a></li>
+                    <li><a><div>ІНШІ ПОВНОВАЖЕННЯ</div></a></li>
+                    <li><a><div>КОНТАКТИ</div></a></li>
+                </ul>
+                <a class="phone-number" href="#">+38 (050) 979 22 41</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-text">
+                <p>© 2022 Avlasovich Notary</p>
+                <p>DESIGNED BY KIFA</p>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script>
+
+        function initMap() {
+            var coordinates = {lat: 47.212325, lng: 38.933663},
+            
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: coordinates
+                });
+        }
+
+    </script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKdbxoZTkHeJ0B3GYDcn8G8Bxu_ksDrX8&callback=initMap"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
